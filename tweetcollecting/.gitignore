@@ -1,0 +1,6 @@
+*.iml
+.gradle/
+.idea/
+src/main/resources/twitter-config.properties
+build/
+out/
