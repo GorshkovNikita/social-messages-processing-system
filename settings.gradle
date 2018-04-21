@@ -8,6 +8,6 @@
  */
 
 rootProject.name = 'social-messages-processing-system'
-include ':core', 'tweetcollecting'
+include ':core', ':tweetcollecting'
 project(':core').projectDir = new File('./core')
 project(':tweetcollecting').projectDir = new File('./tweetcollecting')
